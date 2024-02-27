@@ -1,0 +1,124 @@
+.container{
+    background-image: url(https://pxccdn.ciudadano.news/ciudadano/092021/1631811151036/pelis-animadas.jpg);
+   
+  background-size: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centrar la imagen */
+ 
+ 
+  
+ color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    height:100vh ;
+}
+.cajitag {
+    background-color: rgba(0, 0, 0, 0.6); /* Cambia el valor de 0.5 a tu preferencia de opacidad */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+  }
+.h1{
+    font-size: 2em;
+    line-height: 2;
+    width: 80%;
+    margin-left: 8%;
+    font-weight: 300;
+}
+.cajas{
+    margin: 3%;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    width: 70%;
+    height: 35px;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 6px; 
+    border-radius: 4px;
+}
+
+.agregarbtn {
+    background-color: #28a745; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+
+  .lista {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 1% 5%;
+    border-bottom: 1px black solid;
+    list-style: none;
+    box-shadow: 0 0 30px rgba(125, 100, 167, 0.5);
+    background-color: #afafaf;
+    background-color: rgba(0, 0, 0, 0.6);
+
+  }
+  .cantidad {
+    display: flex;
+    text-align: right; 
+  }
+  
+  .inputCantidad {
+    width: 50px; 
+    height: 30px;
+    margin: 0 5px;
+    text-align: center;
+}
+  .btnCantidad {
+    width: 30px; 
+    background-color: gray;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .eliminarbtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .letter{
+    
+    padding: 8px;
+    line-height: 2;
+    font-size: 18px;
+    font-family: inherit;
+    
+  }
+  .total{
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    padding: 1%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 80%;
+    margin-top: 2%
+  }
+  .infoPelicula {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nombre {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .precio {
+    font-size: 16px;
+    color: #888; 
+
+  }
+  
+  
